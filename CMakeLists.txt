@@ -20,7 +20,7 @@ endif()
 
 # Encontrar pacotes via vcpkg
 # Defina o caminho para o diretório onde glfw3Config.cmake está localizado, por exemplo, via vcpkg:
-set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH};C:/Users/carlo/OneDrive/Desktop/faculdade/vcpkg/installed/x64-mingw-dynamic")
+set(CMAKE_PREFIX_PATH "${CMAKE_PREFIX_PATH};Indique a pasta x64-mingw-dynamic aqui EX: -> (C:/vcpkg/installed/x64-mingw-dynamic)")
 # Ou defina glfw3_DIR diretamente:
 # set(glfw3_DIR "C:/path/to/vcpkg/installed/x64-windows/share/glfw3")
 

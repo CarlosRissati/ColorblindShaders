@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "Altere aqui seu caminho do vcpkg include -> (C:/vcpkg/installed/x64-mingw-dynamic/include)",
+                "Altere aqui seu caminho do mingw include -> (C:/mingw64/include)"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "GLFW_INCLUDE_NONE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "Altere aqui seu caminho para o compilador de g++ -> (C:/mingw64/bin/g++.exe)",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

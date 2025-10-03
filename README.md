@@ -38,6 +38,8 @@ E.X. `vcpkg` -> "`C:\vcpkg\installed\x64-mingw-dynamic\bin`"
 Certifique-se de que seu `MinGW` está no PATH também:
 "`C:\msys64\mingw64\bin`"
 
+Altere também o arquivo `CMakeLists.txt` para indicar a pasta do `vcpkg` onde foram instalados as dependencias.
+
 ### Configurações VSCODE
 
 Altere o arquivo `.vscode/c_cpp_properties.json` com as informações citadas dentro dele.
