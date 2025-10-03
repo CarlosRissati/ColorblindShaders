@@ -5,8 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
-                "C:/Users/carlo/OneDrive/Desktop/faculdade/vcpkg/installed/x64-mingw-dynamic/include",
-                "C:/Qt/Tools/mingw1310_64/include"
+                "{Include do vcpkg 'EX: -> (C:/vcpkg/installed/x64-mingw-dynamic/include)'}",
+                "{Include do mingw 'EX: -> (C:/mingw64/include)'}"
             ],
             "defines": [
                 "_DEBUG",
@@ -15,7 +15,7 @@
                 "GLFW_INCLUDE_NONE"
             ],
             "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "compilerPath": "{Path para o compilador 'EX: -> (C:/mingw64/bin/g++.exe)'}",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-gcc-x64",
