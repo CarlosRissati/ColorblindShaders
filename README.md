@@ -1,7 +1,7 @@
 # ColorblindShaders
 
 O filtro funciona apenas em versão do windows 10 para cima.
-As luts foram pegas do reposítorio [adrewwillmott/colour-blind-luts](https://github.com/andrewwillmott/colour-blind-luts)
+As luts foram pegas do repositório [adrewwillmott/colour-blind-luts](https://github.com/andrewwillmott/colour-blind-luts)
 
 ## Build
 
